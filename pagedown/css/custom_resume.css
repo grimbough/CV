@@ -1,0 +1,39 @@
+/* Customize some of the sizing variables */
+:root {
+  --sidebar-width: 13rem; /* Shrink sidebar width  */
+  --sidebar-background-color: #f7fbff; /* Make sidebar blue */
+  /*--sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
+  --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
+  --decorator-border: 0px solid #f7fbff; /* Make timeline a blue as well */
+}
+
+.aside {
+  padding-top: 0;
+}
+
+#title p {
+  font-size: 1.25em;
+}
+
+.place {
+  margin-bottom: 0.5em;
+}
+
+.references {
+  margin-left: 8%;
+}
+
+.references li {
+  padding: 0.3em;
+  font-size: 1.2em;
+}
+
+.references li:before {
+   content: "⚫";
+   font-size: 80%; /* or whatever */
+   padding-right: 5px;
+}
+
+#education .details {
+  padding-left: 1em;
+}
