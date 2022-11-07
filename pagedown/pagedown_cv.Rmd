@@ -56,6 +56,8 @@ Experience with cloud deployments (Open Stack, Kubernetes) and container technol
 Heavily used HPC infrastructure (slurm, lsf, Condor) and parallel processing tools (MPI, OpenMP)
 
 
+
+
 *CV last updated `r format(Sys.time(), "%e %b %Y")`.*
 
 Main
@@ -78,8 +80,10 @@ I work closely with experimental scientists and other programmers to create robu
 usable, and performant analysis tools.  I enjoy using software to automate
 tasks in order to provide rapid deployment and feedback.
 
-I am also passionate about enabling and educating on good practices for 
-reproducible research.
+I am also passionate about enabling and educating around good practices for 
+reproducible research. I work extensively with version control, containers,
+and literate programming tools like R Markdown, and encourage those around me 
+to adopt similar practices.
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -98,6 +102,7 @@ Cambridge, UK
 - Detecting alternative splicing with gene expression microarrays
 - Analysis of genomic and transcriptomic sequencing data
 - Developed tools for data quality control, assessment and correction
+- Studied data compression and access patterns
 :::
 
 ### Cardiff University
@@ -148,9 +153,11 @@ Heidelberg, DE
 2015-19
 
 - Developed workflows for analysis of bulk RNA-seq data
-- Maintained and continued development of several widely used 'infrastructure packages' e.g. biomaRt and rhdf5
-- Provided end-user support via email, online forums, and GitHub issues
+- Maintained and continued development of several widely used 'infrastructure packages' e.g. [biomaRt](https://bioconductor.org/packages/biomaRt/) and [rhdf5](https://bioconductor.org/packages/rhdf5/). 
+  - Modernised code base and updated documentation and vignettes
+  - Provided end-user support via email, online forums, and GitHub issues
 - In collaboration with experimental biologists, developed software for the analysis of pool CRISPR-based screens
+- Created [BiocWorkflowTools](https://bioconductor.org/packages/BiocWorkflowTools/) for publishing R Markdown documents as both Bioconductor Workflows and publications
 
 
 ### Research Associate
@@ -225,8 +232,7 @@ N/A
 ### Bioconductor Developers' Forum
 
 Organiser and host of the monthly developers' forum, a series of presentations 
-and workshops intended to bring the developer community closer together
-[Youtube Playlist](https://www.youtube.com/playlist?list=PLdl4u5ZRDMQQLMupAtEzm2y4gUIUm_1n6)
+and workshops intended to bring the developer community closer together<br>[Youtube Playlist](https://www.youtube.com/playlist?list=PLdl4u5ZRDMQQLMupAtEzm2y4gUIUm_1n6)
 
 N/A
 
@@ -235,27 +241,82 @@ N/A
 ### Statistical Data Analysis for Genome-Scale Biology (CSAMA)
 
 A one week intensive course teaching analysis of multi-omics studies.  Variously I have taught,
-provided technical support, administered the course website and materials, reviewed applications
+provided technical support, administered the course website and teaching materials, reviewed applications
 
 N/A
 
 2015-19 2022
 
-\newpage
+Prizes, Awards, and Grants {data-icon=award}
+--------------------------------------------
 
-Publications {data-icon=book}
---------------------------------------------------------------------------------
+### CZI Funding Call - Single-cell biology
+
+Statistical Analysis and Comprehension of the Human Cell Atlas in R / Bioconductor: Access and Scalable Infrastructure - $45,000
+
+N/A
+
+2018
+
+Applied in collaboration with Wolfgang Huber
+
+### RStudio Bookdown Contest
+
+Runner-up.  Awarded for msmbstyle, a tufte inspired markdown theme.
+
+N/A
+
+2018
+
+### UseR 2011 - Poster Prize
+
+N/A
+
+N/A
+
+2011
+
+### BioC Conference 2011 Travel and Accommodation Scholarship
+
+N/A 
+
+N/A
+
+2011
+
+### Cancer Research UK - Tuition and Maintenance Scholarship 
+
+N/A 
+
+N/A
+
+2007
+
+\pagebreak
+
+## Publications {data-icon=book}
 
 <div class="references">
 
 ```{r, echo = FALSE, results='asis', warning=FALSE}
-tmp <- bib2df::bib2df("references/works.bib") |> dplyr::arrange(desc(YEAR))
+bib <- bib2df::bib2df("references/works.bib") |> 
+  dplyr::arrange(desc(YEAR))
+me_first <- vapply(bib$AUTHOR, function(x) { grepl(pattern = "Smith", x[1]) }, 
+                   FUN.VALUE = logical(1)) 
 print_cite <- function(x) { sprintf("- %s. *%s*. %s (%s)", 
                                     paste(unlist(x$AUTHOR), collapse = ", "), 
                                     x$TITLE,
                                     x$JOURNAL,
                                     x$YEAR) }
-cat(apply(tmp, 1, print_cite), sep = "\n")
+
+cat("<h3>First Author</h3>\n")
+
+cat(apply(bib |> dplyr::filter(me_first), 1, print_cite), sep = "\n")
+
+cat("\n<h3>Contributing Author</h3>\n")
+cat(apply(bib |> dplyr::filter(!me_first), 1, print_cite), sep = "\n")
+
 ```
+
 
 </div>
