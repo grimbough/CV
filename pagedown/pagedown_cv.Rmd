@@ -80,10 +80,57 @@ I work closely with experimental scientists and other programmers to create robu
 usable, and performant analysis tools.  I enjoy using software to automate
 tasks in order to provide rapid deployment and feedback.
 
-I am also passionate about enabling and educating around good practices for 
+I am also passionate about good software practices for 
 reproducible research. I work extensively with version control, containers,
-and literate programming tools like R Markdown, and encourage those around me 
-to adopt similar practices.
+and literate programming tools like R Markdown, champion these practices to
+those around me, and have taught multiple courses on these topics.
+
+Professional Experience {data-icon=laptop} 
+--------------------------------------------------------------------------------
+
+### Senior Scientific Programmer
+
+European Molecular Biology Laboratory
+
+Heidelberg, DE
+
+2019-
+
+- Developed and deployed Bioconductor Code Tools website for exploring the code behind all Bioconductor packages - [code.bioconductor.org](https://code.bioconductor.org/)
+- Designed and maintain Bioconductor GitHub Actions to simplify using GitHub actions for BioC package development - [grimbough/bioc-actions](https://github.com/grimbough/bioc-actions)
+- Ported existing HDF5 compression filters to R via the [rhdf5filters](https://bioconductor.org/packages/rhdf5filters) package, and researched the effectiveness of run-length encoding and bit-packing for sparse single-cell data
+- Created a continuous integration workflow using GitHub Actions for the Quarto book [Modern Statistics for Modern Biology](https://www.huber.embl.de/msmb/). This rapidly builds chapters in parallel, deploys a new edition of the book if successful, and alerts authors via email if any problems are encountered.
+- Organised and hosted monthly Bioconductor Developer Forum and embl-R discussion sessions
+- Consulting and/or mentoring junior software developers
+
+
+### Bioinformatician
+
+European Molecular Biology Laboratory
+
+Heidelberg, DE
+
+2015-19
+
+- Maintained and continued development of several widely used Bioconductor packages with extensive userbases and thousands of downloads per month e.g. [biomaRt](https://bioconductor.org/packages/biomaRt/) and [rhdf5](https://bioconductor.org/packages/rhdf5/). 
+  - Modernised code base and updated documentation and vignettes
+  - Provided end-user support via email, online forums, and GitHub issues
+- In collaboration with experimental biologists, developed software for the analysis of pool CRISPR-based screens
+- Developed workflows for analysis of bulk RNA-seq data
+- Created [BiocWorkflowTools](https://bioconductor.org/packages/BiocWorkflowTools/) for publishing R Markdown documents as both Bioconductor Workflows and publications
+
+
+### Research Associate
+
+Cancer Research UK Cambridge Institute
+
+Cambridge, UK
+
+2013-15
+
+- Wrote and deployed workflows for analysing structural variation data as part of the Oesophageal ICGC project
+- Developed quality control software for Oxford Nanopore sequencing data
+- Researched the impact data quality had on downstream analysis and results
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -100,7 +147,7 @@ Cambridge, UK
 
 ::: concise
 - Detecting alternative splicing with gene expression microarrays
-- Analysis of genomic and transcriptomic sequencing data
+- Analysis of DNA and RNA sequencing data
 - Developed tools for data quality control, assessment and correction
 - Studied data compression and access patterns
 :::
@@ -124,54 +171,6 @@ Bath, UK
 2003-07
 
 **Dissertation:** A distributed computing approach to finding missing genes using protein threading
-
-Professional Experience {data-icon=laptop .break-after-me} 
---------------------------------------------------------------------------------
-
-### Senior Scientific Programmer
-
-European Molecular Biology Laboratory
-
-Heidelberg, DE
-
-2019-
-
-- Developed and deployed Bioconductor Code Tools website for exploring the code behind all Bioconductor packages - [code.bioconductor.org](https://code.bioconductor.org/)
-- Designed and maintain Bioconductor GitHub Actions to simplify using GitHub actions for BioC package development - [grimbough/bioc-actions](https://github.com/grimbough/bioc-actions)
-- Ported existing HDF5 compression filters to R, and researched the effectiveness of run-length encoding and bit-packing for sparse single-cell data
-- Created a continuous integration workflow using GitHub Actions for the Quarto book [Modern Statistics for Modern Biology](https://www.huber.embl.de/msmb/). 
-- Organised and hosted monthly Bioconductor Developer Forum and embl-R discussion sessions
-- Consulting and/or mentoring junior software developers
-
-
-### Bioinformatician
-
-European Molecular Biology Laboratory
-
-Heidelberg, DE
-
-2015-19
-
-- Developed workflows for analysis of bulk RNA-seq data
-- Maintained and continued development of several widely used 'infrastructure packages' e.g. [biomaRt](https://bioconductor.org/packages/biomaRt/) and [rhdf5](https://bioconductor.org/packages/rhdf5/). 
-  - Modernised code base and updated documentation and vignettes
-  - Provided end-user support via email, online forums, and GitHub issues
-- In collaboration with experimental biologists, developed software for the analysis of pool CRISPR-based screens
-- Created [BiocWorkflowTools](https://bioconductor.org/packages/BiocWorkflowTools/) for publishing R Markdown documents as both Bioconductor Workflows and publications
-
-
-### Research Associate
-
-Cancer Research UK Cambridge Institute
-
-Cambridge, UK
-
-2013-15
-
-- Wrote and deployed workflows for analysing structural variation data as part of the Oesophageal ICGC project
-- Developed quality control software for Oxford Nanopore sequencing data
-- Researched the impact data quality had on downstream analysis and results
-
 
 
 Teaching Experience {data-icon=chalkboard-teacher}
@@ -203,10 +202,21 @@ Heidelberg, DE
 
 2016-18 2020
 
+### Statistical Data Analysis for Genome-Scale Biology (CSAMA)
+
+A one week intensive course teaching analysis of multi-omics studies.  Variously I have taught,
+provided online and in-person technical support, administered the course website and teaching 
+materials, and reviewed applications from students
+
+Brixen, IT
+
+2015-19 2022
+
+
 \newpage
 
 
-Organiser and committees {data-icon=calendar-days}
+Software Development Community {data-icon=calendar-days}
 -------------------------------------------------------------------------------
 
 ### Bioconductor New Developer Program
@@ -238,14 +248,7 @@ N/A
 
 2019-21
 
-### Statistical Data Analysis for Genome-Scale Biology (CSAMA)
 
-A one week intensive course teaching analysis of multi-omics studies.  Variously I have taught,
-provided technical support, administered the course website and teaching materials, reviewed applications
-
-N/A
-
-2015-19 2022
 
 Prizes, Awards, and Grants {data-icon=award}
 --------------------------------------------
