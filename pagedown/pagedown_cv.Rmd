@@ -1,5 +1,5 @@
 ---
-title: "Mike L. Smith's resume"
+title: "Mike L. Smith's CV"
 author: Mike L. Smith
 date: "`r Sys.Date()`"
 output:
@@ -10,7 +10,7 @@ output:
     includes:
       in_header: html/header_extras.html
 # uncomment this line to produce HTML and PDF in RStudio:
-#knit: pagedown::chrome_print
+knit: pagedown::chrome_print
 ---
 
 ```{css, echo = FALSE}
@@ -21,9 +21,6 @@ output:
 --decorator-horizontal-margin: 0.2in;
 }
 
-.break-after-me {
-break-after: page;
-}
 ```
 
 
@@ -41,6 +38,7 @@ Contact Info {#contact}
 - <i class="fa fa-github"></i> [github.com/grimbough](https://github.com/grimbough)
 - <i class="fa-brands fa-orcid"></i> [0000-0002-7800-3848](https://orcid.org/0000-0002-7800-3848)
 - <i class="fa fa-twitter"></i> [@grimbough](https://twitter.com/grimbough)
+- <img src="images/favicon-32x32.png" width="12" style="filter: grayscale(100%);"> [BioC Support Site](https://support.bioconductor.org/u/3986/)
 - For more information, please contact me via email.
 
 
@@ -74,7 +72,7 @@ Employed as part of the German Network for Bioinformatics Infrastructure
 (de.NBI), I develop and maintain a variety of tools for the 
 analysis of biological data.  In particular, I support many packages
 and tools for the Bioconductor project and its community, and am a member of 
-both the Bioconductor core team and the community advisory board.
+both the Bioconductor core team and the Community Advisory Board.
 
 I work closely with experimental scientists and other programmers to create robust,
 usable, and performant analysis tools.  I enjoy using software to automate
@@ -96,12 +94,13 @@ Heidelberg, DE
 
 2019-
 
-- Developed and deployed Bioconductor Code Tools website for exploring the code behind all Bioconductor packages - [code.bioconductor.org](https://code.bioconductor.org/)
-- Designed and maintain Bioconductor GitHub Actions to simplify using GitHub actions for BioC package development - [grimbough/bioc-actions](https://github.com/grimbough/bioc-actions)
-- Ported existing HDF5 compression filters to R via the [rhdf5filters](https://bioconductor.org/packages/rhdf5filters) package, and researched the effectiveness of run-length encoding and bit-packing for sparse single-cell data
+- Developed and deployed [Bioconductor Code Tools](https://code.bioconductor.org/) website.  Using Docker containers and a Kubernetes deployment, this site automatically syncs with the central Bioconductor git repository and provides tools for browsing and searching the code behind all Bioconductor packages.
+- Designed and maintained Bioconductor GitHub Actions to simplify using GitHub actions for BioC package development - [grimbough/bioc-actions](https://github.com/grimbough/bioc-actions)
+- Ported existing HDF5 compression filters to R via the [rhdf5filters](https://bioconductor.org/packages/rhdf5filters) package, benchmarked their performance on single-cell data, and researched the effectiveness of run-length encoding and bit-packing via new filters written in C.
 - Created a continuous integration workflow using GitHub Actions for the Quarto book [Modern Statistics for Modern Biology](https://www.huber.embl.de/msmb/). This rapidly builds chapters in parallel, deploys a new edition of the book if successful, and alerts authors via email if any problems are encountered.
 - Organised and hosted monthly Bioconductor Developer Forum and embl-R discussion sessions
-- Consulting and/or mentoring junior software developers
+- Consulting and/or mentoring junior software developers, both within EMBL and 
+the wider community, to improve their R skills and develop their own packages.
 
 
 ### Bioinformatician
@@ -112,11 +111,12 @@ Heidelberg, DE
 
 2015-19
 
-- Maintained and continued development of several widely used Bioconductor packages with extensive userbases and thousands of downloads per month e.g. [biomaRt](https://bioconductor.org/packages/biomaRt/) and [rhdf5](https://bioconductor.org/packages/rhdf5/). 
-  - Modernised code base and updated documentation and vignettes
-  - Provided end-user support via email, online forums, and GitHub issues
+- Maintained and continued development of several widely used Bioconductor packages with extensive userbases and thousands of downloads per month e.g. [biomaRt](https://bioconductor.org/packages/biomaRt/) and [rhdf5](https://bioconductor.org/packages/rhdf5/). This involved:
+  - Modernising and strengthening the code base via code review & development of unit tests
+  - Updating documentation and vignettes
+  - Providing end-user support via email, online forums, and GitHub issues
 - In collaboration with experimental biologists, developed software for the analysis of pool CRISPR-based screens
-- Developed workflows for analysis of bulk RNA-seq data
+- Developed workflows for analysis of bulk RNA-seq data, deployed on an HPC cluster
 - Created [BiocWorkflowTools](https://bioconductor.org/packages/BiocWorkflowTools/) for publishing R Markdown documents as both Bioconductor Workflows and publications
 
 
@@ -132,6 +132,58 @@ Cambridge, UK
 - Developed quality control software for Oxford Nanopore sequencing data
 - Researched the impact data quality had on downstream analysis and results
 
+Software Development Community Engagment {data-icon=calendar-days}
+-------------------------------------------------------------------------------
+
+### Bioconductor Community Advisory Board
+
+Elected to a three year term on the Community Advisory Board, where the aim is 
+to engage the user and developer communities with training, outreach and a 
+welcoming environment. As part of this I have been involved with the following:
+
+N/A
+
+2020-
+
+- **New Developer Program** - This program aims to encourage new developers to
+make the jump from scripting into package development by pairing them with more 
+experienced mentors.  As co-lead I have been responsible for designing the program,
+soliciting and reviewing applications from mentors and mentees, creating mentorship
+pairings, and checking on progress and satisfaction with the scheme.
+- **Package Review Working Group** - Created to review and revise the process via 
+which packages are accepted into Bioconductor, we have systematically updated the
+guidelines for packages authors and submission.  We have also successfully recruited
+a new cohort of reviewers to speed up the review process.
+- **Privacy Working Group** - With its large community of users and many websites and 
+services hosted by a variety of organisations around the globe, data privacy is
+a serious issue for Bioconductor.  We are engaged in making sure that Bioconductor 
+services meet both legal requirements and community expectations regarding 
+personal data privacy.
+
+
+### embl-R Coding Club
+
+Co-organiser and host of EMBL's longest running programming group. We hold bi-weekly tutorials,
+package demos, talks and discussions on anything R related.  I have personally taught sessions
+on package development, data wrangling, parallel processing among others, as 
+well as arranging the program of speakers.
+
+N/A
+
+2020-21
+
+
+### Bioconductor Developers' Forum
+
+Organiser and host of the monthly developers' forum, a series of presentations 
+and workshops intended to bring the developer community closer together.  This 
+has included presentations by members of R Core, RStudio, rOpenSci and Microsoft.<br>
+[Youtube Playlist](https://www.youtube.com/playlist?list=PLdl4u5ZRDMQQLMupAtEzm2y4gUIUm_1n6)
+
+N/A
+
+2019-21
+
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
@@ -145,16 +197,16 @@ Cambridge, UK
 
 **Thesis:** Low-level artefacts affecting microarrays and next-generation sequencing in a cancer genomics environment
 
-::: concise
+<!--
 - Detecting alternative splicing with gene expression microarrays
 - Analysis of DNA and RNA sequencing data
 - Developed tools for data quality control, assessment and correction
 - Studied data compression and access patterns
-:::
+-->
 
 ### Cardiff University
 
-M.S. (with Distinction) in Bioinformatics
+MSc (with Distinction) in Bioinformatics
 
 Cardiff, UK
 
@@ -171,6 +223,7 @@ Bath, UK
 2003-07
 
 **Dissertation:** A distributed computing approach to finding missing genes using protein threading
+
 
 
 Teaching Experience {data-icon=chalkboard-teacher}
@@ -213,43 +266,6 @@ Brixen, IT
 2015-19 2022
 
 
-\newpage
-
-
-Software Development Community {data-icon=calendar-days}
--------------------------------------------------------------------------------
-
-### Bioconductor New Developer Program
-
-Co-organiser and reviewer of applications from prospective mentors and
-mentees. 
-
-N/A
-
-2021-
-
-
-### embl-R coding club
-
-Co-organiser and host of EMBL's internal R programming group, holding tutorials,
-package demos, talks and discussions.
-
-N/A
-
-2020-21
-
-
-### Bioconductor Developers' Forum
-
-Organiser and host of the monthly developers' forum, a series of presentations 
-and workshops intended to bring the developer community closer together<br>[Youtube Playlist](https://www.youtube.com/playlist?list=PLdl4u5ZRDMQQLMupAtEzm2y4gUIUm_1n6)
-
-N/A
-
-2019-21
-
-
-
 Prizes, Awards, and Grants {data-icon=award}
 --------------------------------------------
 
@@ -271,7 +287,7 @@ N/A
 
 2018
 
-### UseR 2011 - Poster Prize
+### UseR 2011 - Best Technical Poster Prize
 
 N/A
 
@@ -286,14 +302,6 @@ N/A
 N/A
 
 2011
-
-### Cancer Research UK - Tuition and Maintenance Scholarship 
-
-N/A 
-
-N/A
-
-2007
 
 \pagebreak
 

@@ -19,21 +19,39 @@
   margin-bottom: 0.5em;
 }
 
+#title {
+  left: 0.35in;
+}
+
 #education p {
-  font-size: 1.1em;
+  /*font-size: 1.1em;*/
   margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+#senior-scientific-programmer-1 ul {
+  margin-left: -5.5em;
+  margin-top: 3em;
+}
+
+#senior-scientific-programmer-1 li {
+  margin-bottom: 0.4em;
 }
 
 #professional-experience li {
   font-size: 1.1em;
 }
 
-#professional-experience ul {
-  margin-left: -0.5em;
+#professional-experience li ul {
+  padding-left: 0.15in;
 }
 
 #professional-experience li li {
-  font-size: 0.9em;
+  font-size: 1em;
+}
+
+#teaching-experience .place {
+  width: 80%;
 }
 
 .references {
@@ -47,7 +65,7 @@
 
 .references li:before {
    content: "⚫";
-   font-size: 80%; /* or whatever */
+   font-size: 50%; /* or whatever */
    padding-right: 5px;
 }
 
