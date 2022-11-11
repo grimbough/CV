@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Mike L. Smith" />
+    <meta name="date" content="2022-11-11" />
+    <title>Mike L. Smith’s CV</title>
+
+    
+<!--        <link href="pagedown_cv_files/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+        <link href="pagedown_cv_files/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" /> -->
+        <link href="pagedown_cv_files/paged-0.19/css/resume.css" rel="stylesheet" /> 
+        <script src="pagedown_cv_files/paged-0.19/js/config.js"></script>
+        <script src="pagedown_cv_files/paged-0.19/js/paged.js"></script> 
+        <script src="pagedown_cv_files/paged-0.19/js/hooks.js"></script>
+        <script src="https://kit.fontawesome.com/de7de3e216.js" crossorigin="anonymous"></script>
+    
+        <link rel="stylesheet" href="css/custom_resume.css" type="text/css" />
+    
+  </head>
+  <body>
+
+<style type="text/css">
+.pagedjs_page:not(:first-of-type) {
+--sidebar-width: 0rem;
+--sidebar-background-color: #ffffff;
+--main-width: calc(var(--content-width) - var(--sidebar-width));
+--decorator-horizontal-margin: 0.2in;
+}
+
+</style>
+<div id="aside" class="section level1">
+<h1>Aside</h1>
+<p><img src="images/smith_mike_whslides.png" width="166" /></p>
+<div id="contact" class="section level2">
+<h2>Contact Info</h2>
+<ul>
+<li><i class="fa fa-envelope"></i> <a href="mailto:mike.smith@embl.de" class="email">mike.smith@embl.de</a></li>
+<li><i class="fa fa-github"></i> <a href="https://github.com/grimbough">github.com/grimbough</a></li>
+<li><i class="fa-brands fa-orcid"></i> <a href="https://orcid.org/0000-0002-7800-3848">0000-0002-7800-3848</a></li>
+<li><i class="fa fa-twitter"></i> <a href="https://twitter.com/grimbough"><span class="citation">@grimbough</span></a></li>
+<li><img src="images/favicon-32x32.png" width="12" style="filter: grayscale(100%);"> <a href="https://support.bioconductor.org/u/3986/">BioC Support Site</a></li>
+<li>For more information, please contact me via email.</li>
+</ul>
+</div>
+<div id="skills" class="section level2">
+<h2>Skills</h2>
+<p>Skilled in several programming languages: R, C, Perl, Bash</p>
+<p>Worked extensively with out-of-memory representation of large-scale data e.g. HDF5</p>
+<p>Experience with cloud deployments (Open Stack, Kubernetes) and container technologies (Docker, Singularity)</p>
+<p>Heavily used HPC infrastructure (slurm, lsf, Condor) and parallel processing tools (MPI, OpenMP)</p>
+<p><em>CV last updated 11 Nov 2022.</em></p>
+</div>
+</div>
+<div id="main" class="section level1">
+<h1>Main</h1>
+<div id="title" class="section level2">
+<h2>Mike L. Smith</h2>
+<div id="senior-scientific-programmer" class="section level3">
+<h3>Senior Scientific Programmer</h3>
+<p>I am a research software engineer at the European Molecular Biology Laboratory.</p>
+<p>Employed as part of the German Network for Bioinformatics Infrastructure
+(de.NBI), I develop and maintain a variety of tools for the
+analysis of biological data. In particular, I support many packages
+and tools for the Bioconductor project and its community, and am a member of
+both the Bioconductor core team and the Community Advisory Board.</p>
+<p>I work closely with experimental scientists and other programmers to create robust,
+usable, and performant analysis tools. I enjoy using software to automate
+tasks in order to provide rapid deployment and feedback.</p>
+<p>I am also passionate about good software practices for
+reproducible research. I work extensively with version control, containers,
+and literate programming tools like R Markdown, champion these practices to
+those around me, and have taught multiple courses on these topics.</p>
+</div>
+</div>
+<div id="professional-experience" class="section level2" data-icon="laptop">
+<h2>Professional Experience</h2>
+<div id="senior-scientific-programmer-1" class="section level3">
+<h3>Senior Scientific Programmer</h3>
+<p>European Molecular Biology Laboratory</p>
+<p>Heidelberg, DE</p>
+<p>2019-</p>
+<ul>
+<li>Developed and deployed <a href="https://code.bioconductor.org/">Bioconductor Code Tools</a> website. Using Docker containers and a Kubernetes deployment, this site automatically syncs with the central Bioconductor git repository and provides tools for browsing and searching the code behind all Bioconductor packages.</li>
+<li>Designed and maintained Bioconductor GitHub Actions to simplify using GitHub actions for BioC package development - <a href="https://github.com/grimbough/bioc-actions">grimbough/bioc-actions</a></li>
+<li>Ported existing HDF5 compression filters to R via the <a href="https://bioconductor.org/packages/rhdf5filters">rhdf5filters</a> package, benchmarked their performance on single-cell data, and researched the effectiveness of run-length encoding and bit-packing via new filters written in C.</li>
+<li>Created a continuous integration workflow using GitHub Actions for the Quarto book <a href="https://www.huber.embl.de/msmb/">Modern Statistics for Modern Biology</a>. This rapidly builds chapters in parallel, deploys a new edition of the book if successful, and alerts authors via email if any problems are encountered.</li>
+<li>Organised and hosted monthly Bioconductor Developer Forum and embl-R discussion sessions</li>
+<li>Consulting and/or mentoring junior software developers, both within EMBL and
+the wider community, to improve their R skills and develop their own packages.</li>
+</ul>
+</div>
+<div id="bioinformatician" class="section level3">
+<h3>Bioinformatician</h3>
+<p>European Molecular Biology Laboratory</p>
+<p>Heidelberg, DE</p>
+<p>2015-19</p>
+<ul>
+<li>Maintained and continued development of several widely used Bioconductor packages with extensive userbases and thousands of downloads per month e.g. <a href="https://bioconductor.org/packages/biomaRt/">biomaRt</a> and <a href="https://bioconductor.org/packages/rhdf5/">rhdf5</a>. This involved:
+<ul>
+<li>Modernising and strengthening the code base via code review &amp; development of unit tests</li>
+<li>Updating documentation and vignettes</li>
+<li>Providing end-user support via email, online forums, and GitHub issues</li>
+</ul></li>
+<li>In collaboration with experimental biologists, developed software for the analysis of pool CRISPR-based screens</li>
+<li>Developed workflows for analysis of bulk RNA-seq data, deployed on an HPC cluster</li>
+<li>Created <a href="https://bioconductor.org/packages/BiocWorkflowTools/">BiocWorkflowTools</a> for publishing R Markdown documents as both Bioconductor Workflows and publications</li>
+</ul>
+</div>
+<div id="research-associate" class="section level3">
+<h3>Research Associate</h3>
+<p>Cancer Research UK Cambridge Institute</p>
+<p>Cambridge, UK</p>
+<p>2013-15</p>
+<ul>
+<li>Wrote and deployed workflows for analysing structural variation data as part of the Oesophageal ICGC project</li>
+<li>Developed quality control software for Oxford Nanopore sequencing data</li>
+<li>Researched the impact data quality had on downstream analysis and results</li>
+</ul>
+</div>
+</div>
+<div id="software-development-community-engagment" class="section level2" data-icon="calendar-days">
+<h2>Software Development Community Engagment</h2>
+<div id="bioconductor-community-advisory-board" class="section level3">
+<h3>Bioconductor Community Advisory Board</h3>
+<p>Elected to a three year term on the Community Advisory Board, where the aim is
+to engage the user and developer communities with training, outreach and a
+welcoming environment. As part of this I have been involved with the following:</p>
+<p>N/A</p>
+<p>2020-</p>
+<ul>
+<li><strong>New Developer Program</strong> - This program aims to encourage new developers to
+make the jump from scripting into package development by pairing them with more
+experienced mentors. As co-lead I have been responsible for designing the program,
+soliciting and reviewing applications from mentors and mentees, creating mentorship
+pairings, and checking on progress and satisfaction with the scheme.</li>
+<li><strong>Package Review Working Group</strong> - Created to review and revise the process via
+which packages are accepted into Bioconductor, we have systematically updated the
+guidelines for packages authors and submission. We have also successfully recruited
+a new cohort of reviewers to speed up the review process.</li>
+<li><strong>Privacy Working Group</strong> - With its large community of users and many websites and
+services hosted by a variety of organisations around the globe, data privacy is
+a serious issue for Bioconductor. We are engaged in making sure that Bioconductor
+services meet both legal requirements and community expectations regarding
+personal data privacy.</li>
+</ul>
+</div>
+<div id="embl-r-coding-club" class="section level3">
+<h3>embl-R Coding Club</h3>
+<p>Co-organiser and host of EMBL’s longest running programming group. We hold bi-weekly tutorials,
+package demos, talks and discussions on anything R related. I have personally taught sessions
+on package development, data wrangling, parallel processing among others, as
+well as arranging the program of speakers.</p>
+<p>N/A</p>
+<p>2020-21</p>
+</div>
+<div id="bioconductor-developers-forum" class="section level3">
+<h3>Bioconductor Developers’ Forum</h3>
+<p>Organiser and host of the monthly developers’ forum, a series of presentations
+and workshops intended to bring the developer community closer together. This
+has included presentations by members of R Core, RStudio, rOpenSci and Microsoft.<br>
+<a href="https://www.youtube.com/playlist?list=PLdl4u5ZRDMQQLMupAtEzm2y4gUIUm_1n6">Youtube Playlist</a></p>
+<p>N/A</p>
+<p>2019-21</p>
+</div>
+</div>
+<div id="education" class="section level2" data-icon="graduation-cap" data-concise="true">
+<h2>Education</h2>
+<div id="university-of-cambridge" class="section level3">
+<h3>University of Cambridge</h3>
+<p>PhD, Computational Biology,<br> Department of Oncology</p>
+<p>Cambridge, UK</p>
+<p>2009-12</p>
+<p><strong>Thesis:</strong> Low-level artefacts affecting microarrays and next-generation sequencing in a cancer genomics environment</p>
+<!--
+- Detecting alternative splicing with gene expression microarrays
+- Analysis of DNA and RNA sequencing data
+- Developed tools for data quality control, assessment and correction
+- Studied data compression and access patterns
+-->
+</div>
+<div id="cardiff-university" class="section level3">
+<h3>Cardiff University</h3>
+<p>MSc (with Distinction) in Bioinformatics</p>
+<p>Cardiff, UK</p>
+<p>2007-08</p>
+<p><strong>Dissertation:</strong> The development of parallel processing techniques for the analysis of genome wide association studies</p>
+</div>
+<div id="university-of-bath" class="section level3">
+<h3>University of Bath</h3>
+<p>BSc (2.2) in Mathematics with Computing</p>
+<p>Bath, UK</p>
+<p>2003-07</p>
+<p><strong>Dissertation:</strong> A distributed computing approach to finding missing genes using protein threading</p>
+</div>
+</div>
+<div id="teaching-experience" class="section level2" data-icon="chalkboard-teacher">
+<h2>Teaching Experience</h2>
+<div id="advanced-topics-in-single-cell-transcriptomics" class="section level3">
+<h3>Advanced topics in single-cell transcriptomics</h3>
+<p>Working with on-disc data formats</p>
+<p>Swiss Institute for Bioinformatics, Online</p>
+<p>2020</p>
+<p><a href="https://www.youtube.com/watch?v=lpPHwLcdk8I">Youtube Recording</a></p>
+</div>
+<div id="bbsrc-advanced-methods-for-reproducible-science-workshop" class="section level3">
+<h3>BBSRC Advanced Methods for Reproducible Science Workshop</h3>
+<p>Introduction to R Markdown and literate programming for reproducible research</p>
+<p>Windsor, UK</p>
+<p>2018-20</p>
+</div>
+<div id="embl-software-carpentry" class="section level3">
+<h3>EMBL Software Carpentry</h3>
+<p>Introduction to HPC with Slurm</p>
+<p>Heidelberg, DE</p>
+<p>2016-18 2020</p>
+</div>
+<div id="statistical-data-analysis-for-genome-scale-biology-csama" class="section level3">
+<h3>Statistical Data Analysis for Genome-Scale Biology (CSAMA)</h3>
+<p>A one week intensive course teaching analysis of multi-omics studies. Variously I have taught,
+provided online and in-person technical support, administered the course website and teaching
+materials, and reviewed applications from students</p>
+<p>Brixen, IT</p>
+<p>2015-19 2022</p>
+</div>
+</div>
+<div id="prizes-awards-and-grants" class="section level2" data-icon="award">
+<h2>Prizes, Awards, and Grants</h2>
+<div id="czi-funding-call---single-cell-biology" class="section level3">
+<h3>CZI Funding Call - Single-cell biology</h3>
+<p>Statistical Analysis and Comprehension of the Human Cell Atlas in R / Bioconductor: Access and Scalable Infrastructure - $45,000</p>
+<p>N/A</p>
+<p>2018</p>
+<p>Applied in collaboration with Wolfgang Huber</p>
+</div>
+<div id="rstudio-bookdown-contest" class="section level3">
+<h3>RStudio Bookdown Contest</h3>
+<p>Runner-up. Awarded for msmbstyle, a tufte inspired markdown theme.</p>
+<p>N/A</p>
+<p>2018</p>
+</div>
+<div id="user-2011---best-technical-poster-prize" class="section level3">
+<h3>UseR 2011 - Best Technical Poster Prize</h3>
+<p>N/A</p>
+<p>N/A</p>
+<p>2011</p>
+</div>
+<div id="bioc-conference-2011-travel-and-accommodation-scholarship" class="section level3">
+<h3>BioC Conference 2011 Travel and Accommodation Scholarship</h3>
+<p>N/A</p>
+<p>N/A</p>
+<p>2011</p>
+<div class="page-break-after"></div>
+</div>
+</div>
+<div id="publications" class="section level2" data-icon="book">
+<h2>Publications</h2>
+<div class="references">
+<h3>
+First Author
+</h3>
+<ul>
+<li>Mike L. Smith, Andrzej K. Oleś, Wolfgang Huber. <em>Authoring Bioconductor workflows with BiocWorkflowTools [version 1; referees: awaiting peer review]</em>. F1000Research (2018)</li>
+<li>Smith ML, Baggerly KA, Bengtsson H, Ritchie ME, Hansen KD. <em>illuminaio: An open source IDAT parsing tool for Illumina microarrays</em>. F1000research (2013)</li>
+<li>Smith ML, Dunning MJ, Tavaré S, Lynch AG. <em>Identification and correction of previously unreported spatial phenomena using raw Illumina BeadArray data</em>. BMC Bioinformatics (2010)</li>
+<li>Smith ML, Lynch AG. <em>BeadDataPackR: A Tool to Facilitate the Sharing of Raw Data from Illumina BeadArray Studies</em>. Cancer Informatics (2010)</li>
+</ul>
+<h3>
+Contributing Author
+</h3>
+<ul>
+<li>Rozemarijn W. D. Kleinendorst, Guido Barzaghi, Mike L. Smith, Judith B. Zaugg, Arnaud R. Krebs. <em>Genome-wide quantification of transcription factor binding at single-DNA-molecule resolution using methyl-transferase footprinting</em>. Nature Protocols (2021)</li>
+<li>Alexandros P. Drainas, Ruxandra A Lambuta, Irina Ivanova, Özdemirhan Serçin, Ioannis Sarropoulos, Mike L. Smith, Theocharis Efthymiopoulos, Benjamin Raeder, Adrian M. Stütz, Sebastian M. Waszak, Balca R. Mardin, Jan O. Korbel. <em>Genome-wide Screens Implicate Loss of Cullin Ring Ligase 3 in Persistent Proliferation and Genome Instability in TP53-Deficient Cells</em>. Cell Reports (2020)</li>
+<li>Amezquita RA, Lun ATL, Becht E, Carey VJ, Carpp LN, Geistlinger L, Marini F, Rue-Albrecht K, Risso D, Soneson C, Waldron L, Pagès H, Smith ML, …, Hicks SC. <em>Orchestrating single-cell analysis with Bioconductor</em>. Nature Methods (2020)</li>
+<li>Aaron T. L. Lun, Hervé Pagès, Mike L. Smith. <em>beachmat: A Bioconductor C++ API for accessing high-throughput biological data from a variety of R matrix types</em>. PLOS Computational Biology (2018)</li>
+<li>James H.R. Farmery, Mike L. Smith, Andy G. Lynch. <em>Telomerecat: A ploidy-agnostic method for estimating telomere length from whole genome sequencing data</em>. Scientific Reports (2017)</li>
+<li>Weaver JM, Ross-Innes CS, Shannon N, Lynch AG, Forshew T, Barbera M, Murtaza M, Ong CA, Lao-Sirieix P, Dunning MJ, Smith L, Smith ML, Anderson CL, Carvalho B, O’Donovan M, Underwood TJ, May AP, Grehan N, Hardwick R, OCCAMS Consortium. <em>Ordering of mutations in preinvasive disease stages of esophageal carcinogenesis</em>. Nature Genetics (2014)</li>
+<li>Ritchie ME, Dunning MJ, Smith ML, Shi W, Lynch AG. <em>BeadArray expression analysis using bioconductor</em>. PLOS Computational Biology (2011)</li>
+<li>Cairns J, Spyrou C, Stark R, Smith ML, Lynch AG, Tavaré S. <em>BayesPeak - an R package for analysing ChIP-seq data</em>. Bioinformatics (2011)</li>
+<li>Moskvina V, Smith M, Ivanov D, Blackwood D, StClair D, Hultman C, Toncheva D, Gill M, Corvin A, O’Dushlaine C, Morris DW, Wray NR, Sullivan P, Pato C, Pato MT, Sklar P, Purcell S, Holmans P, O’Donovan MC, Owen MJ. <em>Genetic differences between five European populations</em>. Human Heredity (2010)</li>
+<li>Dunning MJ, Smith ML, Ritchie ME, Tavaré S. <em>beadarray: R classes and methods for Illumina bead-based data</em>. Bioinformatics (2007)</li>
+<li>J. Dunning, Mark, P. Thorne, Natalie, Camilier, Isabelle, L. Smith, Michael, Tavaré, Simon. <em>Quality Control and Low-Level Statistical Analysis of Illumina BeadArray},</em>. REVSTAT-Statistical Journal}, (2006)</li>
+</ul>
+</div>
+</div>
+</div>
+
+<script>
+(function() {
+  var i, s, j, el, els;
+  var create_el = function(type, className, content, isHTML) {
+    var el = document.createElement(type);
+    if (className) el.className = className;
+    if (content) {
+      if (isHTML) {el.innerHTML = content;} else {el.innerText = content;}
+    }
+    return el;
+  }
+
+  // replace h2 title with h1
+  var title = document.getElementById('title').querySelector('h2');
+  title.parentNode.replaceChild(create_el('h1', false, title.innerHTML, true), title);
+
+  // add the class .aside to #aside
+  el = document.getElementById('aside');
+  if (el) el.className += ' aside';
+
+  // tweak class names of sections, and add icons
+  els = document.getElementById('main').querySelectorAll('.level2');
+  for (i = 0; i < els.length; i++) {
+    el = els[i];
+    if (i === 0 && el.id === 'title') continue;
+    el.className += ' main-block';
+    if (el.dataset['concise']) el.className += ' concise';
+    // if there is no icon, add an icon:
+    if (el.firstElementChild.firstChild && el.firstElementChild.firstChild.nodeName !== 'I') {
+      s = el.dataset['icon'] || 'bookmark';
+      el.firstElementChild.insertBefore(create_el('i', 'fa fa-' + s), el.firstElementChild.firstChild);
+    }
+  }
+
+  // tweak class names of blocks in sections
+  els = document.getElementById('main').querySelectorAll('.level3');
+  for (i = 0; i < els.length; i++) {
+    el = els[i];
+    if (el.parentNode.id === 'title') continue;
+    el.className += ' blocks';
+    el.innerHTML = '<div class="date"></div>' + '<div class="decorator"></div>' +
+      '<div class="details"><header></header><div></div></div>' + el.innerHTML;
+    var ps = el.querySelectorAll('p');
+    // move the date paragraph to the date div
+    if (ps.length >= 3) {
+      s = ps[2].innerText;
+      s = s === 'N/A' ? [] : s.split(' - ');
+      el.removeChild(ps[2]);
+      for (j = 0; j < s.length && j < 2; j++) {
+        el.children[0].appendChild(create_el('span', false, s[j]))
+      }
+    }
+    // move title, description, location to the details div
+    (function(h) {
+      h.appendChild(el.children[3]);
+      var p = el.children[3];  // description
+      if (p.innerText !== 'N/A') {
+        h.appendChild(create_el('span', 'place', p.innerHTML, true));
+      }
+      el.removeChild(p);
+      p = el.children[3];  // location
+      if (p.innerText !== 'N/A') {
+        s = create_el('span', 'location', p.innerHTML, true);
+        s.innerHTML = '<i class="fa fa-map-marker-alt"></i> ' + s.innerHTML;
+        h.appendChild(s);
+      }
+      el.removeChild(p);
+    })(el.children[2].firstElementChild);
+    // move the rest of content in a block into the last div of the details div
+    s = el.children[2];
+    while (j = s.nextSibling) {
+      if (j.className === 'aside') { s = j; continue; }
+      el.children[2].lastElementChild.append(j);
+    }
+  }
+})();
+</script>
+
+
+  </body>
+</html>
