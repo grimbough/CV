@@ -115,7 +115,7 @@ Heidelberg, DE
   - Modernising and strengthening the code base via code review & development of unit tests
   - Updating documentation and vignettes
   - Providing end-user support via email, online forums, and GitHub issues
-- In collaboration with experimental biologists, developed software for the analysis of pool CRISPR-based screens
+- In collaboration with experimental biologists, developed software for the analysis of pooled CRISPR-based screens
 - Developed workflows for analysis of bulk RNA-seq data, deployed on an HPC cluster
 - Created [BiocWorkflowTools](https://bioconductor.org/packages/BiocWorkflowTools/) for publishing R Markdown documents as both Bioconductor Workflows and publications
 
