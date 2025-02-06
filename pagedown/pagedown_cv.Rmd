@@ -68,22 +68,11 @@ Mike L. Smith {#title}
 My current role involves supporting the needs of EMBL's large-scale data generation and collection 
 activities, identifying and addressing technical issues to improve data handling practice.
 
-As part of the EMBL Data Science Centre, I work closely with experimental researchers, 
+As part of the EMBL Data Science Centre, I work closely with researchers, 
 scientific core facilities, IT services, and other data management experts to 
-harmonise efforts in large-scale integrated biological data management across EMBL’s 
-international sites.
-
-<!--
-Data Governance & Policy Implementation: Ensuring compliance with institutional, national, and international data policies, including FAIR (Findable, Accessible, Interoperable, and Reusable) principles.
-Data Storage & Organization: Overseeing how research data is stored, structured, and archived for accessibility and long-term preservation.
-Metadata & Documentation: Establishing best practices for metadata standards and documentation to enhance data usability.
-Data Sharing & Security: Managing access control, data sharing agreements, and security protocols to protect sensitive research data.
-Collaboration & Training: Supporting researchers in data management planning, providing training on best practices, and facilitating interdisciplinary collaboration.
-Workflow Optimization: Streamlining data processing, integrating tools and software, and ensuring efficient data pipelines.
--->
-<!--I work closely with experimental scientists and other programmers to create robust,
-usable, and performant analysis tools.  I enjoy using software to automate
-tasks in order to provide rapid deployment and feedback.-->
+harmonise efforts in large-scale biological data management across EMBL’s 
+international sites.  I develop and deploy tools, workflows and best practice protocols
+to streamline data processes and maximise the utility of EMBL’s research data.
 
 I am also passionate about research software engineering and good software practices for 
 reproducible research. I work extensively with version control, containers,
@@ -107,7 +96,8 @@ in public repositories.
 - Coordinating the implementation of standardised high-throughput data processing 
 frameworks using workflow languages and containerized software in HPC and cloud 
 computing environments in order to streamline data processing
-- Ensuring compliance with institutional and funding agency data policies, including FAIR (Findable, Accessible, Interoperable, and Reusable) principles.
+- Establishing best practices for metadata standards and documentation to enhance data usability,
+in particular by following the FAIR (Findable, Accessible, Interoperable, and Reusable) data principles.
 - Hands on experience with the data management requirements for a wide range of
 biological data modalities, including sequencing, microscopy imaging, and
 x-ray crystallography.
@@ -115,7 +105,11 @@ x-ray crystallography.
 data management plans, meeting the requirements of both grant funding agencies
 and researchers working at the bench.
 - Overseeing how research data is stored, structured, and archived for accessibility and long-term preservation.
-- Delivering training on data management best practices
+- Delivering training and workshops on data management best practices
+- Ensuring compliance with institutional and funding agency data policies
+- Coordinating with staff at regional partners in the Health + Life Science Alliance
+Heidelberg Mannheim to develop a platform proposal to allow data sharing and collaboration
+between institutions
 
 ### Senior Scientific Programmer
 
@@ -261,6 +255,22 @@ Bath, UK
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
+### EMBL Internal Data Management Training
+
+Multiple internal courses given to fellows and staff on data management best practices and tools
+
+Heidelberg, DE
+
+2023-25
+
+### OLISSIPO Workshop - Introduction to R
+
+One day course introducing R for data analysis
+
+Lisbon, PT
+
+2023
+
 ### Advanced topics in single-cell transcriptomics
 
 Working with on-disc data formats
@@ -269,7 +279,7 @@ Swiss Institute for Bioinformatics, Online
 
 2020
 
-[Youtube Recording](https://www.youtube.com/watch?v=lpPHwLcdk8I)
+<!-- [Youtube Recording](https://www.youtube.com/watch?v=lpPHwLcdk8I) -->
 
 ### BBSRC Advanced Methods for Reproducible Science Workshop
 
@@ -297,7 +307,7 @@ Brixen, IT
 
 2015-19 2022
 
-
+<!--
 Prizes, Awards, and Grants {data-icon=award}
 --------------------------------------------
 
@@ -334,6 +344,7 @@ N/A
 N/A
 
 2011
+--> 
 
 \pagebreak
 

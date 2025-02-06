@@ -7,6 +7,16 @@
   --decorator-border: 0px solid #f7fbff; /* Make timeline a blue as well */
 }
 
+/*
+@page {
+  size: A4 portrait;
+}
+*/
+
+@page {
+  margin-bottom: 15mm;
+}
+
 .aside {
   padding-top: 0;
 }
@@ -29,12 +39,21 @@
   margin-bottom: 0.2em;
 }
 
+#data-management-coordinator ul {
+  margin-left: -5.5em;
+  margin-top: 3em;
+}
+
+#data-management-coordinator li {
+  margin-bottom: 0.4em;
+}
+
 #senior-scientific-programmer-1 ul {
   margin-left: -5.5em;
   margin-top: 3em;
 }
 
-#senior-scientific-programmer-1 li {
+#senior-scientific-programmer li {
   margin-bottom: 0.4em;
 }
 
