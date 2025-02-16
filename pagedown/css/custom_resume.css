@@ -21,6 +21,10 @@
   padding-top: 0;
 }
 
+.aside .level2 {
+  margin-top: 0.25in;
+}
+
 #title p {
   font-size: 1.25em;
 }
@@ -37,6 +41,10 @@
   /*font-size: 1.1em;*/
   margin-top: 0.2em;
   margin-bottom: 0.2em;
+}
+
+[data-id="title"] p {
+  font-size: 1.2em;
 }
 
 #data-management-coordinator ul {
@@ -79,7 +87,7 @@
 
 .references li {
   padding: 0.3em;
-  font-size: 1.2em;
+  font-size: 1.15em;
 }
 
 .references li:before {

@@ -47,13 +47,13 @@ Skills {#skills}
 
 Focused on implementing FAIR principles for data management
 
-Experience with cloud technologies and containers
+Experience with cloud technologies (Kubernetes, OpenStack, S3) and containers (Docker, Singularity)
 
 Heavily used workflow managers, HPC infrastructure and parallel processing tools
 
-Skilled in several programming languages: R, C, Perl, Bash
+Skilled in several programming languages: R, C, Python, Perl, Bash
 
-Worked extensively with out-of-memory representation of large-scale data e.g. HDF5, Zarr
+Worked extensively with on-disk representations of large-scale data e.g. HDF5, Zarr
 
 *CV last updated `r format(Sys.time(), "%e %b %Y")`.*
 
@@ -71,8 +71,9 @@ activities, identifying and addressing technical issues to improve data handling
 As part of the EMBL Data Science Centre, I work closely with researchers, 
 scientific core facilities, IT services, and other data management experts to 
 harmonise efforts in large-scale biological data management across EMBL’s 
-international sites.  I develop and deploy tools, workflows and best practice protocols
-to streamline data processes and maximise the utility of EMBL’s research data.
+international sites.  My team and I develop and deploy tools, workflows and 
+best practice protocols to streamline data processes and maximise the utility of 
+EMBL’s research data.
 
 I am also passionate about research software engineering and good software practices for 
 reproducible research. I work extensively with version control, containers,
@@ -90,17 +91,19 @@ Heidelberg, DE
 
 2023-
 
-- Line managing a small, internationally distributed, team focused on improving
-the management of data across the laboratory, from data production to deposition
+- Leading a small, internationally distributed, team focused on improving
+data management across the laboratory, from production to deposition
 in public repositories.
-- Coordinating the implementation of standardised high-throughput data processing 
-frameworks using workflow languages and containerized software in HPC and cloud 
-computing environments in order to streamline data processing
+- Coordinating the implementation of standardised, high-throughput, data processing 
+pipelines using containerized software and workflow languages, such as Nextflow and Snakemake, 
+in HPC and cloud computing environments.
 - Establishing best practices for metadata standards and documentation to enhance data usability,
 in particular by following the FAIR (Findable, Accessible, Interoperable, and Reusable) data principles.
-- Hands on experience with the data management requirements for a wide range of
+- Experience with the data management requirements for a range of
 biological data modalities, including sequencing, microscopy imaging, and
 x-ray crystallography.
+- Recruiting, setting objectives, appraising, and mentoring direct reports in the 
+data management team.
 - Providing consultation services to scientists and project managers to construct and implement 
 data management plans, meeting the requirements of both grant funding agencies
 and researchers working at the bench.
@@ -108,7 +111,7 @@ and researchers working at the bench.
 - Delivering training and workshops on data management best practices
 - Ensuring compliance with institutional and funding agency data policies
 - Coordinating with staff at regional partners in the Health + Life Science Alliance
-Heidelberg Mannheim to develop a platform proposal to allow data sharing and collaboration
+Heidelberg Mannheim to develop a platform proposal for data sharing and collaboration
 between institutions
 
 ### Senior Scientific Programmer
@@ -119,13 +122,13 @@ Heidelberg, DE
 
 2019-23
 
+- Identified the need for Zarr support in R and created [Rarr]([grimbough/bioc-actions](https://github.com/grimbough/Rarr)), the first R/Zarr interface.
 - Developed and deployed [Bioconductor Code Tools](https://code.bioconductor.org/) website.  Using Docker containers and a Kubernetes deployment, this site provides tools for browsing and searching the code behind all Bioconductor packages.
 - Designed and maintained Bioconductor GitHub Actions to simplify using GitHub actions for BioC package development - [grimbough/bioc-actions](https://github.com/grimbough/bioc-actions)
 - Ported HDF5 compression filters to R via [rhdf5filters](https://bioconductor.org/packages/rhdf5filters) & benchmarked their performance on single-cell data.
 - Created a continuous integration workflow using GitHub Actions for the Quarto book [Modern Statistics for Modern Biology](https://www.huber.embl.de/msmb/). This rapidly builds chapters in parallel, deploys a new edition of the book if successful, and alerts authors via email if any problems are encountered.
 - Organised and hosted monthly Bioconductor Developer Forum and embl-R discussion sessions
-- Mentoring junior software developers, both within EMBL and 
-the wider community, to improve their R skills and develop their own packages.
+- Mentored junior software developers, both within EMBL and the wider community, to improve their R skills and develop their own packages.
 
 
 ### Bioinformatician
@@ -140,7 +143,7 @@ Heidelberg, DE
   - Modernising and strengthening the code base via code review & development of unit tests
   - Updating documentation and vignettes
   - Providing end-user support via email, online forums, and GitHub issues
-- Collaborated with experimental biologists to develope software for the analysis of pooled CRISPR screens
+- Collaborated with experimental biologists to develop software for the analysis of pooled CRISPR screens
 - Developed workflows for analysis of bulk RNA-seq data, deployed on an HPC cluster
 <!-- - Created [BiocWorkflowTools](https://bioconductor.org/packages/BiocWorkflowTools/) for publishing R Markdown documents as both Bioconductor Workflows and publications -->
 
@@ -157,19 +160,19 @@ Cambridge, UK
 - Developed quality control software for Oxford Nanopore sequencing data
 - Researched the impact data quality had on downstream analysis and results
 
-Software Development Community Engagment {data-icon=calendar-days}
--------------------------------------------------------------------------------
+<!-- Software Development Community Engagment {data-icon=calendar-days} -->
+<!-- ------------------------------------------------------------------------------- -->
 
-### Bioconductor Community Advisory Board
+<!-- ### Bioconductor Community Advisory Board -->
 
-Elected to a three year term on the Community Advisory Board, where the aim is 
-to engage the user and developer communities with training, outreach and a 
-welcoming environment. As part of this I have been involved in creating and running 
-a New Developer mentorship scheme, as well as the Package Review and Privacy working groups.
+<!-- Elected to a three year term on the Community Advisory Board, where the aim is  -->
+<!-- to engage the user and developer communities with training, outreach and a  -->
+<!-- welcoming environment. As part of this I have been involved in creating and running  -->
+<!-- a New Developer mentorship scheme, as well as the Package Review and Privacy working groups. -->
 
-N/A
+<!-- N/A -->
 
-2021-24
+<!-- 2021-24 -->
 
 <!-- - **New Developer Program** - This program aims to encourage new developers to -->
 <!-- make the jump from scripting into package development by pairing them with more  -->
@@ -187,28 +190,28 @@ N/A
 <!-- personal data privacy. -->
 
 
-### embl-R Coding Club
+<!-- ### embl-R Coding Club -->
 
-Co-organiser and host of EMBL's longest running programming group. We hold bi-weekly tutorials,
-package demos, talks and discussions on anything R related.  I have personally taught sessions
-on package development, data wrangling, parallel processing among others, as 
-well as arranging the program of speakers.
+<!-- Co-organiser and host of EMBL's longest running programming group. We hold bi-weekly tutorials, -->
+<!-- package demos, talks and discussions on anything R related.  I have personally taught sessions -->
+<!-- on package development, data wrangling, parallel processing among others, as  -->
+<!-- well as arranging the program of speakers. -->
 
-N/A
+<!-- N/A -->
 
-2020-
+<!-- 2020- -->
 
 
-### Bioconductor Developers' Forum
+<!-- ### Bioconductor Developers' Forum -->
 
-Organiser and host of the monthly developers' forum, a series of presentations 
-and workshops intended to bring the developer community closer together.  This 
-has included presentations by members of R Core, RStudio, rOpenSci and Microsoft.<br>
-[Youtube Playlist](https://www.youtube.com/playlist?list=PLdl4u5ZRDMQQLMupAtEzm2y4gUIUm_1n6)
+<!-- Organiser and host of the monthly developers' forum, a series of presentations  -->
+<!-- and workshops intended to bring the developer community closer together.  This  -->
+<!-- has included presentations by members of R Core, RStudio, rOpenSci and Microsoft.<br> -->
+<!-- [Youtube Playlist](https://www.youtube.com/playlist?list=PLdl4u5ZRDMQQLMupAtEzm2y4gUIUm_1n6) -->
 
-N/A
+<!-- N/A -->
 
-2019-21
+<!-- 2019-21 -->
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -252,60 +255,60 @@ Bath, UK
 
 
 
-Teaching Experience {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
+<!-- Teaching Experience {data-icon=chalkboard-teacher} -->
+<!-- -------------------------------------------------------------------------------- -->
 
-### EMBL Internal Data Management Training
+<!-- ### EMBL Internal Data Management Training -->
 
-Multiple internal courses given to fellows and staff on data management best practices and tools
+<!-- Multiple internal courses given to fellows and staff on data management best practices and tools -->
 
-Heidelberg, DE
+<!-- Heidelberg, DE -->
 
-2023-25
+<!-- 2023-25 -->
 
-### OLISSIPO Workshop - Introduction to R
+<!-- ### OLISSIPO Workshop - Introduction to R -->
 
-One day course introducing R for data analysis
+<!-- One day course introducing R for data analysis -->
 
-Lisbon, PT
+<!-- Lisbon, PT -->
 
-2023
+<!-- 2023 -->
 
-### Advanced topics in single-cell transcriptomics
+<!-- ### Advanced topics in single-cell transcriptomics -->
 
-Working with on-disc data formats
+<!-- Working with on-disc data formats -->
 
-Swiss Institute for Bioinformatics, Online
+<!-- Swiss Institute for Bioinformatics, Online -->
 
-2020
+<!-- 2020 -->
 
 <!-- [Youtube Recording](https://www.youtube.com/watch?v=lpPHwLcdk8I) -->
 
-### BBSRC Advanced Methods for Reproducible Science Workshop
+<!-- ### BBSRC Advanced Methods for Reproducible Science Workshop -->
 
-Introduction to R Markdown and literate programming for reproducible research
+<!-- Introduction to R Markdown and literate programming for reproducible research -->
 
-Windsor, UK
+<!-- Windsor, UK -->
 
-2018 2019 2020
+<!-- 2018 2019 2020 -->
 
-### EMBL Software Carpentry
+<!-- ### EMBL Software Carpentry -->
 
-Introduction to HPC with Slurm
+<!-- Introduction to HPC with Slurm -->
 
-Heidelberg, DE
+<!-- Heidelberg, DE -->
 
-2016-18 2020
+<!-- 2016-18 2020 -->
 
-### Statistical Data Analysis for Genome-Scale Biology (CSAMA)
+<!-- ### Statistical Data Analysis for Genome-Scale Biology (CSAMA) -->
 
-A one week intensive course teaching analysis of multi-omics studies.  Variously I have taught,
-provided online and in-person technical support, administered the course website and teaching 
-materials, and reviewed applications from students
+<!-- A one week intensive course teaching analysis of multi-omics studies.  Variously I have taught, -->
+<!-- provided online and in-person technical support, administered the course website and teaching  -->
+<!-- materials, and reviewed applications from students -->
 
-Brixen, IT
+<!-- Brixen, IT -->
 
-2015-19 2022
+<!-- 2015-19 2022 -->
 
 <!--
 Prizes, Awards, and Grants {data-icon=award}
