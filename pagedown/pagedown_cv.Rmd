@@ -6,7 +6,9 @@ output:
   pagedown::html_resume:
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: true
-    css: ['css/custom_resume.css', 'resume']
+    css: 
+      - css/custom_resume.css
+      - resume
     includes:
       in_header: html/header_extras.html
 # uncomment this line to produce HTML and PDF in RStudio:
@@ -45,15 +47,15 @@ Contact Info {#contact}
 Skills {#skills}
 --------------------------------------------------------------------------------
 
-Focused on implementing FAIR principles for data management
+Skilled in several programming languages: R, C, Python, Perl, Bash
 
 Experience with cloud technologies (Kubernetes, OpenStack, S3) and containers (Docker, Singularity)
 
 Heavily used workflow managers, HPC infrastructure and parallel processing tools
 
-Skilled in several programming languages: R, C, Python, Perl, Bash
-
 Worked extensively with on-disk representations of large-scale data e.g. HDF5, Zarr
+
+Focused on implementing FAIR principles for data management
 
 *CV last updated `r format(Sys.time(), "%e %b %Y")`.*
 
@@ -71,11 +73,11 @@ activities, identifying and addressing technical issues to improve data handling
 As part of the EMBL Data Science Centre, I work closely with researchers, 
 scientific core facilities, IT services, and other data management experts to 
 harmonise efforts in large-scale biological data management across EMBL’s 
-international sites.  My team and I develop and deploy tools, workflows and 
-best practice protocols to streamline data processes and maximise the utility of 
-EMBL’s research data.
+international sites.  My team and I develop and deploy data engineering tools to create workflows and best practice protocols that streamline data processes and maximise the utility of EMBL’s research data.
 
-I am also passionate about research software engineering and good software practices for 
+I have extensive programming expertise with over 15 years development in R, as well experience with multiple other languages, with a focus on developing and maintaining packages that interface with large-scale data containers, and are widely used in the scientific community.
+
+I am also passionate about good software practices for 
 reproducible research. I work extensively with version control, containers,
 and literate programming tools like R Markdown, champion these practices to
 those around me, and have taught multiple courses on these topics.
@@ -94,25 +96,15 @@ Heidelberg, DE
 - Leading a small, internationally distributed, team focused on improving
 data management across the laboratory, from production to deposition
 in public repositories.
-- Coordinating the implementation of standardised, high-throughput, data processing 
-pipelines using containerized software and workflow languages, such as Nextflow and Snakemake, 
-in HPC and cloud computing environments.
-- Establishing best practices for metadata standards and documentation to enhance data usability,
-in particular by following the FAIR (Findable, Accessible, Interoperable, and Reusable) data principles.
-- Experience with the data management requirements for a range of
-biological data modalities, including sequencing, microscopy imaging, and
-x-ray crystallography.
 - Recruiting, setting objectives, appraising, and mentoring direct reports in the 
 data management team.
-- Providing consultation services to scientists and project managers to construct and implement 
-data management plans, meeting the requirements of both grant funding agencies
-and researchers working at the bench.
-- Overseeing how research data is stored, structured, and archived for accessibility and long-term preservation.
-- Delivering training and workshops on data management best practices
-- Ensuring compliance with institutional and funding agency data policies
-- Coordinating with staff at regional partners in the Health + Life Science Alliance
-Heidelberg Mannheim to develop a platform proposal for data sharing and collaboration
-between institutions
+- Defining cross-departmental procedures and practices for how research data is stored, structured, and archived.
+- Coordinating the implementation of standardised, high-throughput, data processing 
+pipelines using containerized software and workflow languages, such as Nextflow and Snakemake, in HPC and cloud computing environments.
+- Authored Helm charts for deploying in-house data services on Kubernetes.
+- Established the use of software development practices for our data management tools using GitLab, including code reviews and CI testing.
+- Providing consultation, training and workshops on data management best practices.
+
 
 ### Senior Scientific Programmer
 
@@ -127,7 +119,7 @@ Heidelberg, DE
 - Designed and maintained Bioconductor GitHub Actions to simplify using GitHub actions for BioC package development - [grimbough/bioc-actions](https://github.com/grimbough/bioc-actions)
 - Ported HDF5 compression filters to R via [rhdf5filters](https://bioconductor.org/packages/rhdf5filters) & benchmarked their performance on single-cell data.
 - Created a continuous integration workflow using GitHub Actions for the Quarto book [Modern Statistics for Modern Biology](https://www.huber.embl.de/msmb/). This rapidly builds chapters in parallel, deploys a new edition of the book if successful, and alerts authors via email if any problems are encountered.
-- Organised and hosted monthly Bioconductor Developer Forum and embl-R discussion sessions
+- Organised and hosted monthly R developer discussion sessions.
 - Mentored junior software developers, both within EMBL and the wider community, to improve their R skills and develop their own packages.
 
 
@@ -145,7 +137,6 @@ Heidelberg, DE
   - Providing end-user support via email, online forums, and GitHub issues
 - Collaborated with experimental biologists to develop software for the analysis of pooled CRISPR screens
 - Developed workflows for analysis of bulk RNA-seq data, deployed on an HPC cluster
-<!-- - Created [BiocWorkflowTools](https://bioconductor.org/packages/BiocWorkflowTools/) for publishing R Markdown documents as both Bioconductor Workflows and publications -->
 
 
 ### Research Associate
