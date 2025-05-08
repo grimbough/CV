@@ -37,7 +37,6 @@ Contact Info {#contact}
 - <i class="fa fa-envelope"></i> mike.smith@embl.de
 - <i class="fa fa-github"></i> [github.com/grimbough](https://github.com/grimbough)
 - <i class="fa-brands fa-orcid"></i> [0000-0002-7800-3848](https://orcid.org/0000-0002-7800-3848)
-- <i class="fa fa-twitter"></i> [@grimbough](https://twitter.com/grimbough)
 - <img src="images/favicon-32x32.png" width="12" style="filter: grayscale(100%);"> [BioC Support Site](https://support.bioconductor.org/u/3986/)
 - For more information, please contact me via email.
 
@@ -160,19 +159,19 @@ Cambridge, UK
 - Developed quality control software for Oxford Nanopore sequencing data
 - Researched the impact data quality had on downstream analysis and results
 
-<!-- Software Development Community Engagment {data-icon=calendar-days} -->
-<!-- ------------------------------------------------------------------------------- -->
+Software Development Community Engagment {data-icon=calendar-days}
+-------------------------------------------------------------------------------
 
-<!-- ### Bioconductor Community Advisory Board -->
+### Bioconductor Community Advisory Board
 
-<!-- Elected to a three year term on the Community Advisory Board, where the aim is  -->
-<!-- to engage the user and developer communities with training, outreach and a  -->
-<!-- welcoming environment. As part of this I have been involved in creating and running  -->
-<!-- a New Developer mentorship scheme, as well as the Package Review and Privacy working groups. -->
+Elected to a three year term on the Community Advisory Board, where the aim is
+to engage the user and developer communities with training, outreach and a
+welcoming environment. As part of this I have been involved in creating and running
+a New Developer mentorship scheme, as well as the Package Review and Privacy working groups.
 
-<!-- N/A -->
+N/A
 
-<!-- 2021-24 -->
+2021-24
 
 <!-- - **New Developer Program** - This program aims to encourage new developers to -->
 <!-- make the jump from scripting into package development by pairing them with more  -->
@@ -190,28 +189,28 @@ Cambridge, UK
 <!-- personal data privacy. -->
 
 
-<!-- ### embl-R Coding Club -->
+### embl-R Coding Club
 
-<!-- Co-organiser and host of EMBL's longest running programming group. We hold bi-weekly tutorials, -->
-<!-- package demos, talks and discussions on anything R related.  I have personally taught sessions -->
-<!-- on package development, data wrangling, parallel processing among others, as  -->
-<!-- well as arranging the program of speakers. -->
+Co-organiser and host of EMBL's longest running programming group. We hold bi-weekly tutorials,
+package demos, talks and discussions on anything R related.  I have personally taught sessions
+on package development, data wrangling, parallel processing among others, as
+well as arranging the program of speakers.
 
-<!-- N/A -->
+N/A
 
-<!-- 2020- -->
+2020-
 
 
-<!-- ### Bioconductor Developers' Forum -->
+### Bioconductor Developers' Forum
 
-<!-- Organiser and host of the monthly developers' forum, a series of presentations  -->
-<!-- and workshops intended to bring the developer community closer together.  This  -->
-<!-- has included presentations by members of R Core, RStudio, rOpenSci and Microsoft.<br> -->
-<!-- [Youtube Playlist](https://www.youtube.com/playlist?list=PLdl4u5ZRDMQQLMupAtEzm2y4gUIUm_1n6) -->
+Organiser and host of the monthly developers' forum, a series of presentations
+and workshops intended to bring the developer community closer together.  This
+has included presentations by members of R Core, RStudio, rOpenSci and Microsoft.<br>
+[Youtube Playlist](https://www.youtube.com/playlist?list=PLdl4u5ZRDMQQLMupAtEzm2y4gUIUm_1n6)
 
-<!-- N/A -->
+N/A
 
-<!-- 2019-21 -->
+2019-21
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -255,99 +254,98 @@ Bath, UK
 
 
 
-<!-- Teaching Experience {data-icon=chalkboard-teacher} -->
-<!-- -------------------------------------------------------------------------------- -->
+Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
 
-<!-- ### EMBL Internal Data Management Training -->
+### EMBL Internal Data Management Training
 
-<!-- Multiple internal courses given to fellows and staff on data management best practices and tools -->
+Multiple internal courses given to fellows and staff on data management best practices and tools
 
-<!-- Heidelberg, DE -->
+Heidelberg, DE
 
-<!-- 2023-25 -->
+2023-25
 
-<!-- ### OLISSIPO Workshop - Introduction to R -->
+### OLISSIPO Workshop - Introduction to R
 
-<!-- One day course introducing R for data analysis -->
+One day course introducing R for data analysis
 
-<!-- Lisbon, PT -->
+Lisbon, PT
 
-<!-- 2023 -->
+2023
 
-<!-- ### Advanced topics in single-cell transcriptomics -->
+### Advanced topics in single-cell transcriptomics
 
-<!-- Working with on-disc data formats -->
+Working with on-disc data formats
 
-<!-- Swiss Institute for Bioinformatics, Online -->
+Swiss Institute for Bioinformatics, Online
 
-<!-- 2020 -->
+2020
 
-<!-- [Youtube Recording](https://www.youtube.com/watch?v=lpPHwLcdk8I) -->
+[Youtube Recording](https://www.youtube.com/watch?v=lpPHwLcdk8I)
 
-<!-- ### BBSRC Advanced Methods for Reproducible Science Workshop -->
+### BBSRC Advanced Methods for Reproducible Science Workshop
 
-<!-- Introduction to R Markdown and literate programming for reproducible research -->
+Introduction to R Markdown and literate programming for reproducible research
 
-<!-- Windsor, UK -->
+Windsor, UK
 
-<!-- 2018 2019 2020 -->
+2018 2019 2020
 
-<!-- ### EMBL Software Carpentry -->
+### EMBL Software Carpentry
 
-<!-- Introduction to HPC with Slurm -->
+Introduction to HPC with Slurm
 
-<!-- Heidelberg, DE -->
+Heidelberg, DE
 
-<!-- 2016-18 2020 -->
+2016-18 2020
 
-<!-- ### Statistical Data Analysis for Genome-Scale Biology (CSAMA) -->
+### Statistical Data Analysis for Genome-Scale Biology (CSAMA)
 
-<!-- A one week intensive course teaching analysis of multi-omics studies.  Variously I have taught, -->
-<!-- provided online and in-person technical support, administered the course website and teaching  -->
-<!-- materials, and reviewed applications from students -->
+A one week intensive course teaching analysis of multi-omics studies.  Variously I have taught,
+provided online and in-person technical support, administered the course website and teaching
+materials, and reviewed applications from students
 
-<!-- Brixen, IT -->
+Brixen, IT
 
-<!-- 2015-19 2022 -->
+2015-19 2022
 
-<!--
-Prizes, Awards, and Grants {data-icon=award}
---------------------------------------------
+<!-- Prizes, Awards, and Grants {data-icon=award} -->
+<!-- -------------------------------------------- -->
 
-### CZI Funding Call - Single-cell biology
+<!-- ### CZI Funding Call - Single-cell biology -->
 
-Statistical Analysis and Comprehension of the Human Cell Atlas in R / Bioconductor: Access and Scalable Infrastructure - $45,000
+<!-- Statistical Analysis and Comprehension of the Human Cell Atlas in R / Bioconductor: Access and Scalable Infrastructure - $45,000 -->
 
-N/A
+<!-- N/A -->
 
-2018
+<!-- 2018 -->
 
-Applied in collaboration with Wolfgang Huber
+<!-- Applied in collaboration with Wolfgang Huber -->
 
-### RStudio Bookdown Contest
+<!-- ### RStudio Bookdown Contest -->
 
-Runner-up.  Awarded for msmbstyle, a tufte inspired markdown theme.
+<!-- Runner-up.  Awarded for msmbstyle, a tufte inspired markdown theme. -->
 
-N/A
+<!-- N/A -->
 
-2018
+<!-- 2018 -->
 
-### UseR 2011 - Best Technical Poster Prize
+<!-- ### UseR 2011 - Best Technical Poster Prize -->
 
-N/A
+<!-- N/A -->
 
-N/A
+<!-- N/A -->
 
-2011
+<!-- 2011 -->
 
-### BioC Conference 2011 Travel and Accommodation Scholarship
+<!-- ### BioC Conference 2011 Travel and Accommodation Scholarship -->
 
-N/A 
+<!-- N/A -->
 
-N/A
+<!-- N/A -->
 
-2011
---> 
+<!-- 2011 -->
+
 
 \pagebreak
 
