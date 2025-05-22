@@ -75,7 +75,7 @@ scientific core facilities, IT services, and other data management experts to
 harmonise efforts in large-scale biological data management across EMBL’s 
 international sites.  My team and I develop and deploy data engineering tools to create workflows and best practice protocols that streamline data processes and maximise the utility of EMBL’s research data.
 
-I have extensive programming expertise with over 15 years development in R, as well experience with multiple other languages, with a focus on developing and maintaining packages that interface with large-scale data containers, and are widely used in the scientific community.
+I have extensive programming expertise with over 15 years development in R, as well experience with multiple other languages, with a focus on developing and maintaining packages that interface with large-scale data containers, and are widely used in the scientific community. I also enjoy building infrastructure to support other developers, and creating software to analyse exercise data in my spare time.
 
 I am also passionate about good software practices for 
 reproducible research. I work extensively with version control, containers,
@@ -101,7 +101,7 @@ data management team.
 - Defining cross-departmental procedures and practices for how research data is stored, structured, and archived.
 - Coordinating the implementation of standardised, high-throughput, data processing 
 pipelines using containerized software and workflow languages, such as Nextflow and Snakemake, in HPC and cloud computing environments.
-- Authored Helm charts for deploying in-house data services on Kubernetes.
+- Authored Helm charts for deploying in-house data services on Kubernetes. These include visualisation platforms, microservice structured data management tools, and data pipelines.
 - Established the use of software development practices for our data management tools using GitLab, including code reviews and CI testing.
 - Providing consultation, training and workshops on data management best practices.
 
